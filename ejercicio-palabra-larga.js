@@ -17,7 +17,7 @@ function findLongestWord(arrayOfElements){  // como vamos a trabajar sobre un ar
       if(arrayOfElements[i].length > longestWord.length){
         longestWord = arrayOfElements[i];
       }
-2      
+     
     }
 
     return console.log(longestWord)
